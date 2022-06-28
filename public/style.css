@@ -1,22 +1,52 @@
 /* Add your css here */
-
 .avatar {
-  width: 300px;
-  animation: pulse 5s infinite;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
 }
 @keyframes example {
-  from {background-color: red;}
+  from {background-color: rgb(241, 145, 145);}
   to {background-color: powderblue;}
 }
-.body {
+body {
   background-color: red;
   animation-name: example;
   animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
-.h1 {
+h1 {
   font-family: Arial, Helvetica, sans-serif;
-  color: red;
+  color: black;
   text-align:center;
   border: 3px solid green;
-
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  border: 2px solid green;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: centre;
+  padding: 16px 28px;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: white;
+  color: black;
 }
