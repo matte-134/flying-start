@@ -2,6 +2,21 @@
 
 .avatar {
   width: 300px;
-  height: 300px;
   animation: pulse 5s infinite;
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: powderblue;}
+}
+.body {
+  background-color: red;
+  animation-name: example;
+  animation-duration: 5s;
+}
+.h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  text-align:center;
+  border: 3px solid green;
+
 }
