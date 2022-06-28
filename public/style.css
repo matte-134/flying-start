@@ -45,6 +45,9 @@ button {
   padding: 16px 28px;
   font-size: 14px;
   transition-duration: 0.4s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 button:hover {
   background-color: white;
